@@ -2,19 +2,21 @@ export const COMPANY_INFO = {
   name: "Galaxy Star Work Permit Services",
   shortName: "Galaxy Star",
   tagline: "YOUR DREAM | OUR GUIDANCE | GLOBAL OPPORTUNITIES",
-  subTagline: "Premier Overseas Emigration & Genuine Work Permit Placement for Ages 18 to 51",
+  subTagline: "Premier Emigration & Genuine Work Permit Placement in Azerbaijan for Ages 18 to 51",
   phone: "8007884006",
   phoneDisplay: "+91 8007884006",
   whatsappNumber: "918007884006",
-  whatsappUrl: "https://wa.me/918007884006?text=Hello%20Galaxy%20Star%20Work%20Permit%20Services,%20I%20would%20like%20to%20inquire%20about%20overseas%20work%20permits%20and%20job%20placements%20(Age%2018-51).",
+  whatsappUrl: "https://wa.me/918007884006?text=Hello%20Galaxy%20Star%20Work%20Permit%20Services,%20I%20would%20like%20to%20inquire%20about%20Azerbaijan%20work%20permits%20and%20job%20placements%20(Age%2018-51).",
   email: "galaxystarworkpermitservices@gmail.com",
-  instagram: "https://www.instagram.com/galaxy_star_service?psln=MW9qeHpqNGE3NGtlaw==",
+  instagram: "https://www.instagram.com/galaxy_star_work_permit?dlrf=MXNsaDdmdmJ3b2RhaQ==",
   facebook: "https://www.facebook.com/share/1QGJqqPDTr/",
   locations: "Headquarters: Pune / Mumbai, Maharashtra, India",
   workingHours: "Monday – Saturday: 9:30 AM – 6:30 PM (Sunday Closed)",
   ageRange: "18 to 51 Years",
-  logoUrl: "./assets/logo.jpg",
-  termsDocumentUrl: "./assets/terms_document.jpg"
+  logoUrl: "./assets/logo.png",
+  termsDocumentUrl: "./assets/terms_document.jpg",
+  destinationCountry: "Azerbaijan",
+  refundPeriod: "65 Days"
 };
 
 export const TERMS_AND_CONDITIONS = [
@@ -24,16 +26,16 @@ export const TERMS_AND_CONDITIONS = [
     icon: "FileText",
     points: [
       {
-        subtitle: "Advice and Guidance",
-        text: "The consultancy will provide legal advice and guidance to the client on the visa process, required documents and application methods."
+        subtitle: "Consultation and Guidance",
+        text: "The consultancy will provide guidance regarding the visa process, required documents, and application procedures."
       },
       {
         subtitle: "Application Preparation",
-        text: "We will help prepare and submit the application based on the information provided by the customer."
+        text: "We will assist in preparing and submitting the application based on the information provided by the client."
       },
       {
-        subtitle: "No Visa Guarantee",
-        text: "The consultancy only assists in the application process. The approval or rejection of a visa is entirely at the discretion of the Embassy/Consulate of the respective country. The consultancy does not provide any one hundred percent (100%) guarantee of obtaining a visa."
+        subtitle: "No Guarantee of Visa Approval",
+        text: "The authority to approve or reject a visa rests entirely with the relevant Embassy/Consulate. The consultancy does not provide a 100% guarantee of visa approval."
       }
     ]
   },
@@ -44,15 +46,15 @@ export const TERMS_AND_CONDITIONS = [
     points: [
       {
         subtitle: "Accurate Information",
-        text: "It is mandatory that all information, certificates and documents provided by the client are true and accurate."
+        text: "The client must provide all information, certificates, and documents that are true, accurate, and complete."
       },
       {
-        subtitle: "Forged Documents",
-        text: "If the client provides any forged or false documents, his application may be rejected. In such a situation, the consultancy will not be responsible and legal action may be taken."
+        subtitle: "Fake Documents",
+        text: "If the client submits any fake or forged documents, the application may be rejected. The consultancy will not be responsible in such circumstances, and legal action may be taken."
       },
       {
-        subtitle: "Timeliness",
-        text: "It will be the customer's responsibility to submit the required documents and fees within the given deadline."
+        subtitle: "Timely Compliance",
+        text: "The client is responsible for submitting the required documents and fees within the specified time."
       }
     ]
   },
@@ -62,31 +64,31 @@ export const TERMS_AND_CONDITIONS = [
     icon: "IndianRupee",
     points: [
       {
-        subtitle: "Service Fee",
-        text: "The customer will have to pay the service fee (Consultancy Fee) agreed upon at the time of initial consultation."
+        subtitle: "Service Charges",
+        text: "The client must pay the agreed consultancy fee as discussed at the beginning of the process."
       },
       {
         subtitle: "Government Fees",
-        text: "Visa application fees, courier fees, medical tests and other government fees will have to be paid separately by the customer or will not be charged by the company if they are paid separately."
+        text: "Visa application fees, courier charges, medical examination fees, and other government charges must be paid separately by the client. If any such charges are borne by the company, the client will not be required to pay them separately."
       }
     ]
   },
   {
     id: 4,
-    title: "4. Refund / Non-Refund Policy",
+    title: "4. Refund / Non-Refund Policy (65 Days Policy)",
     icon: "RotateCcw",
     points: [
       {
-        subtitle: "Cancellation by Agency",
-        text: "If your process is canceled due to some issues on our part, your money will be refunded within the next 30 days."
+        subtitle: "Refund Window (65 Days)",
+        text: "If the client cancels the process due to personal difficulties, the amount paid will be refunded within 65 days."
       },
       {
-        subtitle: "Cancellation by Client",
-        text: "If the process is canceled due to some issues on your part, there will be no refund."
+        subtitle: "Personal Reasons / Withdrawal",
+        text: "If the client cancels the process due to any personal reasons or difficulties, no refund will be provided."
       },
       {
         subtitle: "e-Visa Payment Window",
-        text: "You should pay your next payment within a maximum of two days of receiving your e-Visa, otherwise the consultancy will not be responsible for any disruption in the process."
+        text: "After the e-visa is issued, the client must pay the remaining amount within a maximum of two days. If any problem arises during the process, the consultancy will not be held responsible."
       }
     ]
   },
@@ -96,12 +98,12 @@ export const TERMS_AND_CONDITIONS = [
     icon: "FileX",
     points: [
       {
-        subtitle: "Cancellation of the Contract",
-        text: "If the client violates the rules, provides incorrect information, or does not pay the fee on time, the consultancy may cancel the contract immediately."
+        subtitle: "Cancellation of Agreement",
+        text: "If the client violates the terms, provides incorrect information, or fails to pay the agreed fees, the consultancy may terminate the agreement immediately."
       },
       {
-        subtitle: "Withdrawal",
-        text: "If the customer wants to stop the process on their own, the fee paid earlier will not be refunded."
+        subtitle: "No Refund on Voluntary Discontinuation",
+        text: "If the client voluntarily discontinues the process, the fees already paid will not be refunded."
       }
     ]
   },
@@ -111,180 +113,164 @@ export const TERMS_AND_CONDITIONS = [
     icon: "Scale",
     points: [
       {
-        subtitle: "Legal Headquarters",
-        text: "Any dispute or legal issue arising in connection with this process shall be resolved under the jurisdiction of the court at the headquarters of the consultancy [Pune/Mumbai]."
+        subtitle: "Legal Jurisdiction",
+        text: "Any disputes or legal matters arising from this process shall be subject to the jurisdiction of the courts located in Pune/Mumbai, where the consultancy's main office is situated."
       }
     ]
   }
 ];
 
 export const COUNTRIES = [
-  { id: "all", name: "All Destinations", flag: "🌍" },
-  { id: "poland", name: "Poland", flag: "🇵🇱", region: "Europe" },
-  { id: "croatia", name: "Croatia", flag: "🇭🇷", region: "Europe" },
-  { id: "germany", name: "Germany", flag: "🇩🇪", region: "Europe" },
-  { id: "malta", name: "Malta", flag: "🇲🇹", region: "Europe" },
-  { id: "uae", name: "UAE / Dubai", flag: "🇦🇪", region: "Gulf" },
-  { id: "saudi", name: "Saudi Arabia", flag: "🇸🇦", region: "Gulf" },
-  { id: "singapore", name: "Singapore", flag: "🇸🇬", region: "Asia-Pacific" },
-  { id: "canada", name: "Canada", flag: "🇨🇦", region: "North America" },
-  { id: "uk", name: "United Kingdom", flag: "🇬🇧", region: "Europe" },
-  { id: "australia", name: "Australia", flag: "🇦🇺", region: "Oceania" }
+  { id: "all", name: "All Azerbaijan Roles", flag: "🇦🇿", region: "Azerbaijan" },
+  { id: "baku", name: "Baku (Capital City)", flag: "🇦🇿", region: "Capital" },
+  { id: "sumqayit", name: "Sumqayit (Industrial Hub)", flag: "🇦🇿", region: "Industrial" },
+  { id: "ganja", name: "Ganja (Commercial Region)", flag: "🇦🇿", region: "Commercial" }
 ];
 
 export const JOB_VACANCIES = [
   {
-    id: "job-1",
+    id: "job-az-1",
     title: "Warehouse & Logistics Associate",
-    country: "Poland",
-    countryCode: "poland",
-    flag: "🇵🇱",
-    region: "Europe",
+    country: "Azerbaijan",
+    city: "Baku",
+    countryCode: "baku",
+    flag: "🇦🇿",
+    region: "Baku Capital",
     category: "Warehouse & Logistics",
-    salaryInINR: "₹1,20,000 – ₹1,55,000 / month",
-    salaryLocal: "5,500 – 7,200 PLN",
+    salaryInINR: "₹75,000 – ₹95,000 / month",
+    salaryLocal: "1,500 – 1,900 AZN",
     ageRequirement: "18 to 50 Years",
     contract: "1 to 2 Years (Renewable)",
-    visaType: "Type D National Work Permit",
-    benefits: ["Accommodation Provided", "Health Insurance", "Overtime Pay Available"],
-    openings: 24,
-    skills: "Basic English or willingness to learn, physically fit"
+    visaType: "Azerbaijan Work Permit & Residence (SMS)",
+    benefits: ["Free Employer Accommodation", "Medical Insurance", "Overtime Allowance"],
+    openings: 28,
+    skills: "Basic English/Hindi, physically fit, goods sorting and packing"
   },
   {
-    id: "job-2",
-    title: "MIG / TIG Welder & Fabricator",
-    country: "Croatia",
-    countryCode: "croatia",
-    flag: "🇭🇷",
-    region: "Europe",
+    id: "job-az-2",
+    title: "MIG / TIG Welder & Steel Fabricator",
+    country: "Azerbaijan",
+    city: "Sumqayit / Baku",
+    countryCode: "sumqayit",
+    flag: "🇦🇿",
+    region: "Sumqayit Industrial",
     category: "Skilled Trades",
-    salaryInINR: "₹1,40,000 – ₹1,85,000 / month",
-    salaryLocal: "1,500 – 2,000 EUR",
+    salaryInINR: "₹90,000 – ₹1,25,000 / month",
+    salaryLocal: "1,800 – 2,500 AZN",
     ageRequirement: "20 to 51 Years",
     contract: "2 Years (Renewable)",
-    visaType: "Croatia Residence & Work Permit",
-    benefits: ["Free Company Accommodation", "Work Transport", "Medical Insurance"],
-    openings: 18,
-    skills: "Welding certification or 2+ yrs experience, technical drawing reading"
+    visaType: "Azerbaijan Work Permit (State Migration)",
+    benefits: ["Company Living Quarters", "Site Transport", "Health Insurance"],
+    openings: 20,
+    skills: "MIG/TIG welding certificate or 2+ years structural welding experience"
   },
   {
-    id: "job-3",
-    title: "Continental Chef & Kitchen Specialist",
-    country: "Malta",
-    countryCode: "malta",
-    flag: "🇲🇹",
-    region: "Europe",
+    id: "job-az-3",
+    title: "Continental & Indian Chef / Kitchen Staff",
+    country: "Azerbaijan",
+    city: "Baku",
+    countryCode: "baku",
+    flag: "🇦🇿",
+    region: "Baku Hotels",
     category: "Hospitality & Tourism",
-    salaryInINR: "₹1,35,000 – ₹1,90,000 / month",
-    salaryLocal: "1,450 – 2,100 EUR",
+    salaryInINR: "₹80,000 – ₹1,15,000 / month",
+    salaryLocal: "1,600 – 2,300 AZN",
     ageRequirement: "21 to 48 Years",
-    contract: "1 Year Single Work Permit",
-    visaType: "Identity Malta Work Permit",
-    benefits: ["Duty Meals Included", "Shared Accommodation", "Tips & Bonus"],
-    openings: 12,
-    skills: "Prior culinary experience, basic hygiene knowledge"
-  },
-  {
-    id: "job-4",
-    title: "Heavy Equipment & Forklift Operator",
-    country: "Germany",
-    countryCode: "germany",
-    flag: "🇩🇪",
-    region: "Europe",
-    category: "Skilled Trades",
-    salaryInINR: "₹1,90,000 – ₹2,40,000 / month",
-    salaryLocal: "2,200 – 2,700 EUR",
-    ageRequirement: "22 to 51 Years",
-    contract: "2 Years (Opportunity for PR)",
-    visaType: "Opportunity Card / Employment Visa",
-    benefits: ["Subsidized Housing", "Full German Social Security", "Paid Leave"],
-    openings: 15,
-    skills: "Valid Heavy Driving License / Forklift Certificate"
-  },
-  {
-    id: "job-5",
-    title: "Industrial Electrician & Maintenance",
-    country: "UAE / Dubai",
-    countryCode: "uae",
-    flag: "🇦🇪",
-    region: "Gulf",
-    category: "Skilled Trades",
-    salaryInINR: "₹85,000 – ₹1,25,000 / month",
-    salaryLocal: "3,800 – 5,500 AED",
-    ageRequirement: "21 to 51 Years",
-    contract: "2 Years Employment Visa",
-    visaType: "MOHRE UAE Employment Permit",
-    benefits: ["Free Accommodation", "Air Ticket Every 2 Yrs", "Medical Covered"],
-    openings: 30,
-    skills: "ITI/Diploma or trade certificate in Electrical works"
-  },
-  {
-    id: "job-6",
-    title: "Hospitality & Customer Service Executive",
-    country: "Singapore",
-    countryCode: "singapore",
-    flag: "🇸🇬",
-    region: "Asia-Pacific",
-    category: "Hospitality & Tourism",
-    salaryInINR: "₹1,50,000 – ₹2,10,000 / month",
-    salaryLocal: "2,400 – 3,400 SGD",
-    ageRequirement: "21 to 45 Years",
-    contract: "2 Years S-Pass / Work Permit",
-    visaType: "MOM Work Pass",
-    benefits: ["Transport Allowance", "Comprehensive Medical", "Annual Bonus"],
-    openings: 10,
-    skills: "Fluent English, presentable personality, customer orientation"
-  },
-  {
-    id: "job-7",
-    title: "Greenhouse & Agricultural Specialist",
-    country: "Poland",
-    countryCode: "poland",
-    flag: "🇵🇱",
-    region: "Europe",
-    category: "Agriculture & Food Processing",
-    salaryInINR: "₹1,05,000 – ₹1,35,000 / month",
-    salaryLocal: "4,800 – 6,200 PLN",
-    ageRequirement: "18 to 51 Years",
     contract: "1 to 2 Years",
-    visaType: "National Voivodeship Work Permit",
-    benefits: ["On-farm Free Living Quarters", "Fresh Farm Meals", "Overtime Availability"],
-    openings: 35,
-    skills: "No heavy formal education required, honest hardworking nature"
+    visaType: "Azerbaijan Employment Visa",
+    benefits: ["Duty Meals Provided", "Shared Accommodation", "Tips & Service Bonus"],
+    openings: 16,
+    skills: "Culinary expertise, food hygiene compliance, team player"
   },
   {
-    id: "job-8",
-    title: "Commercial Long-Haul Truck Driver",
-    country: "Canada",
-    countryCode: "canada",
-    flag: "🇨🇦",
-    region: "North America",
+    id: "job-az-4",
+    title: "Forklift Operator & Heavy Equipment Driver",
+    country: "Azerbaijan",
+    city: "Baku / Sumqayit",
+    countryCode: "sumqayit",
+    flag: "🇦🇿",
+    region: "Port & Logistics",
     category: "Skilled Trades",
-    salaryInINR: "₹2,60,000 – ₹3,40,000 / month",
-    salaryLocal: "4,200 – 5,500 CAD",
-    ageRequirement: "23 to 51 Years",
-    contract: "2 Years LMIA Sponsored Work Permit",
-    visaType: "LMIA Work Permit (PR Pathway)",
-    benefits: ["High Overtime Potential", "Family Sponsorship Eligible", "Provincial Health"],
-    openings: 8,
-    skills: "Commercial driving experience, clean driving abstract"
+    salaryInINR: "₹95,000 – ₹1,35,000 / month",
+    salaryLocal: "1,900 – 2,700 AZN",
+    ageRequirement: "22 to 51 Years",
+    contract: "2 Years (Renewable)",
+    visaType: "Azerbaijan Work Permit & TRWP",
+    benefits: ["Free Accommodation", "High Overtime Hours", "Medical Care"],
+    openings: 18,
+    skills: "Valid Heavy Driving License / Forklift certification"
   },
   {
-    id: "job-9",
-    title: "Healthcare Assistant & Caregiver",
-    country: "United Kingdom",
-    countryCode: "uk",
-    flag: "🇬🇧",
-    region: "Europe",
-    category: "Healthcare & Caregiving",
-    salaryInINR: "₹2,10,000 – ₹2,75,000 / month",
-    salaryLocal: "2,050 – 2,700 GBP",
-    ageRequirement: "22 to 50 Years",
-    contract: "3 Years Health and Care Visa",
-    visaType: "UK Skilled Worker Health & Care Visa",
-    benefits: ["NHS Coverage", "Family Visa Eligible", "Continuous Training"],
-    openings: 14,
-    skills: "Compassionate nature, basic English IELTS/OET or degree verification"
+    id: "job-az-5",
+    title: "Industrial & Commercial Electrician",
+    country: "Azerbaijan",
+    city: "Baku",
+    countryCode: "baku",
+    flag: "🇦🇿",
+    region: "Baku Infrastructure",
+    category: "Skilled Trades",
+    salaryInINR: "₹85,000 – ₹1,20,000 / month",
+    salaryLocal: "1,700 – 2,400 AZN",
+    ageRequirement: "21 to 51 Years",
+    contract: "2 Years",
+    visaType: "Azerbaijan Work Permit",
+    benefits: ["Employer Provided Housing", "Tool Kit & Safety Gear", "Insurance"],
+    openings: 22,
+    skills: "ITI/Trade diploma in electrical maintenance & installation"
+  },
+  {
+    id: "job-az-6",
+    title: "Hotel Front Desk & Hospitality Executive",
+    country: "Azerbaijan",
+    city: "Baku",
+    countryCode: "baku",
+    flag: "🇦🇿",
+    region: "Baku City Center",
+    category: "Hospitality & Tourism",
+    salaryInINR: "₹85,000 – ₹1,10,000 / month",
+    salaryLocal: "1,700 – 2,200 AZN",
+    ageRequirement: "20 to 45 Years",
+    contract: "2 Years",
+    visaType: "Azerbaijan Residence & Work Permit",
+    benefits: ["Duty Meals", "Transport Allowance", "Performance Incentives"],
+    openings: 12,
+    skills: "Good spoken English, pleasant customer service demeanor"
+  },
+  {
+    id: "job-az-7",
+    title: "Construction Mason, Carpenter & Tile Fitter",
+    country: "Azerbaijan",
+    city: "Baku / Ganja",
+    countryCode: "ganja",
+    flag: "🇦🇿",
+    region: "Commercial Projects",
+    category: "Construction & Building",
+    salaryInINR: "₹75,000 – ₹1,00,000 / month",
+    salaryLocal: "1,500 – 2,000 AZN",
+    ageRequirement: "19 to 51 Years",
+    contract: "1 to 2 Years",
+    visaType: "Azerbaijan Work Permit (SMS)",
+    benefits: ["On-site Free Living Quarters", "Canteen Meals", "Overtime Wages"],
+    openings: 35,
+    skills: "Practical experience in masonry, shuttering, or tiling work"
+  },
+  {
+    id: "job-az-8",
+    title: "Agricultural Greenhouse & Farm Specialist",
+    country: "Azerbaijan",
+    city: "Ganja Region",
+    countryCode: "ganja",
+    flag: "🇦🇿",
+    region: "Ganja Farming",
+    category: "Agriculture & Food Processing",
+    salaryInINR: "₹70,000 – ₹90,000 / month",
+    salaryLocal: "1,400 – 1,800 AZN",
+    ageRequirement: "18 to 51 Years",
+    contract: "1 Year (Renewable)",
+    visaType: "Azerbaijan Seasonal & Work Permit",
+    benefits: ["Farm Accommodation", "Fresh Food Support", "Overtime Pay"],
+    openings: 30,
+    skills: "No formal degree required, hardworking and reliable"
   }
 ];
 
@@ -292,36 +278,36 @@ export const WORKFLOW_STEPS = [
   {
     step: "01",
     title: "Profile Assessment & Age Eligibility (18–51)",
-    description: "Our licensed counselors analyze your profile, education, trade credentials, and age group to match the most viable foreign work permits.",
+    description: "Our licensed counselors analyze your profile, trade credentials, and age group for direct Azerbaijan work permit quotas.",
     highlight: "Free & Transparent Counseling",
     icon: "CheckCircle"
   },
   {
     step: "02",
     title: "Documentation & Agreement Signing",
-    description: "We issue our transparent, signed legal service agreement based on our official 6-point Terms & Conditions. No hidden terms.",
-    highlight: "Clear Legal Protection",
+    description: "We issue our transparent, signed legal service agreement based on our official 6-point Terms & Conditions with our 65-Day refund policy.",
+    highlight: "65-Day Refund Protection",
     icon: "FileCheck"
   },
   {
     step: "03",
-    title: "Employer Liaison & Verified Job Offer",
-    description: "We coordinate with authorized international recruiters and employers to secure your legitimate job offer letter and employment contract.",
-    highlight: "Pre-screened Employers",
+    title: "Azerbaijan Employer Match & Offer Letter",
+    description: "We coordinate with vetted employers in Baku & Sumqayit to secure your verified employment contract and official invitation letter.",
+    highlight: "Vetted Baku Employers",
     icon: "Briefcase"
   },
   {
     step: "04",
-    title: "Work Permit & Embassy File Submission",
-    description: "Our documentation experts compile the government work permit file, arrange apostille/attestations, and schedule embassy submissions.",
-    highlight: "Meticulous Compliance",
+    title: "State Migration Service (SMS) Filing",
+    description: "Our documentation team files your work permit with the State Migration Service of Azerbaijan, arranges MEA apostille and embassy verification.",
+    highlight: "Official Migration Compliance",
     icon: "Stamp"
   },
   {
     step: "05",
-    title: "Visa Grant (e-Visa) & Departure Briefing",
-    description: "Upon receiving your e-Visa / stamped passport, you complete final settlement, receive pre-departure airport briefing, and fly abroad.",
-    highlight: "Smooth Relocation",
+    title: "Visa Grant (e-Visa), Orientation & Baku Flight",
+    description: "Upon receiving your Azerbaijan e-Visa / work permit, complete final settlement, receive pre-departure airport briefing, and depart for Baku.",
+    highlight: "Smooth Relocation to Baku",
     icon: "PlaneTakeoff"
   }
 ];
@@ -329,110 +315,118 @@ export const WORKFLOW_STEPS = [
 export const SERVICES_LIST = [
   {
     id: "work-permit",
-    title: "Overseas Work Permit Filing",
-    description: "Complete handling of government work permit petitions for European, Gulf, and APAC countries tailored for candidate profiles aged 18 to 51.",
+    title: "Azerbaijan Work Permit & Residence (SMS)",
+    description: "Comprehensive filing of government work permit petitions with the State Migration Service of the Republic of Azerbaijan for candidates aged 18 to 51.",
     icon: "Briefcase",
-    features: ["Poland Voivodeship Permits", "Croatia & Malta Single Permits", "Gulf Employment Visas", "UK & Canada Work Schemes"]
+    features: ["State Migration Service (SMS) Registration", "Temporary Residence & Work Permit (TRWP)", "Baku & Sumqayit Quotas", "Renewal & Extension Support"]
   },
   {
     id: "legal-guidance",
-    title: "Legal Emigration Advisory",
-    description: "Honest, ethical guidance grounded in destination country immigration law. We never make false 100% promises and safeguard your investment.",
+    title: "Legal Emigration Advisory for Azerbaijan",
+    description: "Honest, ethical guidance grounded in Azerbaijani migration law. We never make false 100% promises and protect your time and finances.",
     icon: "Scale",
-    features: ["Emigration clearance assistance", "Labor law awareness", "Embassy interview prep", "Transparent fee breakdown"]
+    features: ["Azerbaijan labor law compliance", "Clear consultancy fee breakdown", "Embassy interview prep", "Transparent milestones"]
   },
   {
     id: "job-placement",
-    title: "International Job Placement",
-    description: "Connecting skilled, semi-skilled, and general workers with vetted international employers offering genuine work contracts with food & lodging.",
+    title: "Baku Job Placement & Employer Liaison",
+    description: "Direct placement with authorized employers in Baku across warehouse, skilled welding, culinary/hospitality, transport, and construction.",
     icon: "Globe",
-    features: ["Warehouse & Logistics", "Welders & Electricians", "Hospitality & Chefs", "Drivers & Construction Crew"]
+    features: ["Verified Baku Employer Contracts", "Employer-provided Accommodation", "Medical Insurance Coverage", "Competitive AZN Salaries"]
   },
   {
     id: "document-attestation",
-    title: "Document Attestation & Apostille",
-    description: "Fast-track MEA (Ministry of External Affairs) apostille, HRD attestation, PCC (Police Clearance Certificate) processing, and translations.",
+    title: "Document Attestation & MEA Apostille",
+    description: "Fast-track MEA (Ministry of External Affairs) apostille, Police Clearance Certificate (PCC) verification, and certified Azerbaijani translations.",
     icon: "ShieldCheck",
-    features: ["MEA Apostille for Europe", "Embassy Legalization", "PCC Guidance", "Certified Translations"]
+    features: ["MEA Apostille Verification", "Azerbaijan Embassy Legalization", "PCC Fast-Track Guidance", "Certified Notarized Translations"]
   },
   {
     id: "pre-departure",
-    title: "Pre-Departure & Ticketing Support",
-    description: "Comprehensive orientation covering foreign workplace culture, tax systems, currency management, and arrival assistance at foreign airports.",
+    title: "Pre-Departure & Baku Airport Relocation",
+    description: "Complete arrival support in Azerbaijan including Baku Heydar Aliyev Airport pickup coordination, SIM card, accommodation, and migration registration.",
     icon: "Compass",
-    features: ["Airport pickup coordination", "SIM card & banking setup", "Accommodation verification", "24/7 Helpline support"]
+    features: ["Baku Airport Pickup Assistance", "Local Registration (7-day rule)", "SIM Card & Bank Account Setup", "24/7 Helpline Support"]
   },
   {
     id: "refund-transparency",
-    title: "Contractual Transparency & Refund Safety",
-    description: "Backed by our 30-day refund policy in case of any cancellation on our part, governed under Pune & Mumbai legal jurisdiction.",
+    title: "65-Day Refund Policy & Written Contract",
+    description: "Backed by our official 65-Day refund policy in case of any cancellation on our part, legally governed under Pune & Mumbai court jurisdiction.",
     icon: "ShieldAlert",
-    features: ["Written contract with receipt", "Direct government fee split", "Clear timeline updates", "Pune/Mumbai legal jurisdiction"]
+    features: ["Written contract with receipt", "65-Day Refund Window", "Separate Government Fee Receipts", "Pune/Mumbai Court Jurisdiction"]
   }
 ];
 
-export const TESTIMONIALS = [
+export const DEFAULT_TESTIMONIALS = [
   {
     id: 1,
     name: "Rameshwar Patil",
     age: 34,
-    role: "MIG Welder in Zagreb, Croatia",
+    role: "MIG Welder in Baku, Azerbaijan",
     origin: "Pune, Maharashtra",
     rating: 5,
-    quote: "Galaxy Star made my dream of working in Europe a reality. The team explained the entire process without false promises. Within 4 months, my Croatian work permit arrived!",
-    date: "August 2026"
+    quote: "Galaxy Star made my dream of working in Azerbaijan a reality. They explained the State Migration Service process clearly and without false promises. Within 7 weeks, my Baku work permit arrived!",
+    date: "October 2026",
+    verified: true
   },
   {
     id: 2,
     name: "Pooja Sawant",
     age: 26,
-    role: "Hospitality Executive in Warsaw, Poland",
+    role: "Hospitality Executive in Baku City Center",
     origin: "Mumbai, Maharashtra",
     rating: 5,
-    quote: "What impressed me most was their strict honesty regarding embassy guidelines and written Terms & Conditions. My visa was approved smoothly and I love my work in Poland.",
-    date: "July 2026"
+    quote: "Their transparency with the 65-Day refund policy and written Terms gave my family complete trust. I am happily working at a premier hotel in Baku now. Highly recommended!",
+    date: "September 2026",
+    verified: true
   },
   {
     id: 3,
     name: "Sukhwinder Singh",
     age: 48,
-    role: "Heavy Equipment Operator in Germany",
+    role: "Heavy Equipment Driver in Sumqayit, Azerbaijan",
     origin: "Nashik, Maharashtra",
     rating: 5,
-    quote: "Many agents told me I was too old at 48. Galaxy Star showed me specific European job categories open up to age 51. Today I earn in Euros and support my entire family.",
-    date: "September 2026"
+    quote: "At 48 years old, many agencies turned me away. Galaxy Star showed me that Azerbaijan actively hires skilled trades up to age 51. I earn well in Azerbaijani Manat and support my children back home.",
+    date: "August 2026",
+    verified: true
   },
   {
     id: 4,
     name: "Mohammad Irfan",
-    age: 22,
-    role: "Warehouse Logistics in Dubai, UAE",
+    age: 23,
+    role: "Warehouse Logistics in Baku, Azerbaijan",
     origin: "Aurangabad, Maharashtra",
     rating: 5,
-    quote: "Transparent payment policy, no hidden fees, and constant WhatsApp updates from the staff. I got my Dubai employment visa within 28 days!",
-    date: "October 2026"
+    quote: "Completely genuine guidance. No hidden charges, clear government fee split, and constant WhatsApp updates from the staff. I received my Azerbaijan work permit and flight smoothly!",
+    date: "October 2026",
+    verified: true
   }
 ];
 
 export const FAQS = [
   {
-    question: "What is the eligible age group for overseas job placements?",
-    answer: "Galaxy Star caters to candidates aged 18 to 51. We have job orders ranging from entry-level hospitality and general warehouse work (ideal for ages 18–30) to experienced master trades, welders, heavy drivers, and technicians (ideal for ages 30–51)."
+    question: "Why is Azerbaijan a premier destination for overseas work permits?",
+    answer: "Azerbaijan has a thriving, booming economy with major infrastructure, hotel, trade, and logistics hubs centered around Baku and Sumqayit. Work permits have structured government processing through the State Migration Service, competitive salaries in AZN (Azerbaijani Manat), and generous employer-provided accommodation."
+  },
+  {
+    question: "What is the eligible age group for Azerbaijan work permits?",
+    answer: "Galaxy Star exclusively places candidates aged between 18 and 51 years old. Roles for ages 18–30 include warehouse, hospitality, retail, and general assistance, while experienced specialists aged 30–51 are placed in master welding, heavy driving, electrical maintenance, and site supervision."
   },
   {
     question: "Do you provide a 100% guarantee for visa approval?",
-    answer: "No ethical agency can guarantee 100% visa approval because the legal authority to grant or deny a visa rests solely with foreign embassies and consulates. As stated in our official Terms & Conditions (Section 1), we guarantee accurate, professional file preparation and genuine employer job orders."
+    answer: "No ethical agency can legally guarantee 100% visa approval because the legal authority to grant or deny a visa rests solely with the Embassy and the State Migration Service of Azerbaijan. As outlined in Section 1 of our official Terms & Conditions, we guarantee accurate, verified documentation, genuine employer sponsorship, and full compliance."
   },
   {
     question: "What is your refund policy if something goes wrong?",
-    answer: "As outlined in Section 4 of our official signed agreement: If your process is canceled due to any fault or issue on our part, 100% of your money will be refunded within 30 days. We maintain complete transparency throughout."
+    answer: "As clearly specified in Section 4 of our official agreement: If the client cancels the process due to personal difficulties, the amount paid will be refunded within 65 days. We are committed to complete legal transparency."
   },
   {
-    question: "Are English language tests like IELTS mandatory for work permits?",
-    answer: "For most European work permits (Poland, Croatia, Malta) and Gulf positions, IELTS is NOT mandatory. Basic communication ability or technical skill competency is sufficient. For select UK and Canada skilled worker routes, minimal language scoring is required."
+    question: "Are English or language tests (like IELTS) required for Azerbaijan?",
+    answer: "No, IELTS or formal language tests are NOT required for Azerbaijan work permits! Basic working communication ability or technical competency in your trade is completely sufficient."
   },
   {
-    question: "How can I start my assessment?",
-    answer: "You can click on the 'Check 18–51 Eligibility' calculator above or tap the WhatsApp button (+91 8007884006) to send your CV, age, and preferred country for a free profile assessment."
+    question: "How can I start my Azerbaijan assessment?",
+    answer: "Use our interactive Age 18–51 Eligibility Tool above, or tap our official WhatsApp helpline (+91 8007884006) to send your CV/passport for a free profile evaluation."
   }
 ];

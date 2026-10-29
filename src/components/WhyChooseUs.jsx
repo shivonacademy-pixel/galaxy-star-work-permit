@@ -16,7 +16,7 @@ export default function WhyChooseUs({ onOpenApplication, onOpenTermsModal }) {
     },
     {
       feature: "Refund Policy",
-      galaxyStar: "Full refund within 30 days if cancellation is on our part (Section 4)",
+      galaxyStar: "Refund within 65 days if process canceled due to difficulties (Section 4)",
       others: "Strictly non-refundable; advance money lost"
     },
     {
@@ -117,7 +117,7 @@ export default function WhyChooseUs({ onOpenApplication, onOpenTermsModal }) {
               Inclusive Age Network (18–51)
             </h3>
             <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Whether you are an 18-year-old seeking entry-level hospitality abroad or a 49-year-old master welder with 20 years of hands-on skill, we have suitable country openings.
+              Whether you are an 18-year-old seeking entry-level hospitality in Baku or a 49-year-old master welder with 20 years of hands-on skill, we have verified Azerbaijan openings.
             </p>
           </div>
 

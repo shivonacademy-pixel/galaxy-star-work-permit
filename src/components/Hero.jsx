@@ -41,23 +41,23 @@ export default function Hero({ onOpenApplication, onScrollToEligibility }) {
 
             {/* Main Headline */}
             <h1 className="font-heading font-black text-3xl sm:text-4xl md:text-5xl lg:text-5xl leading-tight tracking-tight text-white">
-              Overseas Emigration & <br className="hidden sm:inline" />
+              Azerbaijan Emigration & <br className="hidden sm:inline" />
               <span className="text-gradient-gold">Work Permit Services</span> <br />
               For Ages <span className="underline decoration-brand-gold decoration-4 underline-offset-4">18 to 51</span>
             </h1>
 
             {/* Description */}
             <p className="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl">
-              Turn your international career ambition into reality with verified employer job placements in 
-              <strong className="text-white"> Poland, Croatia, Germany, Malta, UAE, Singapore, UK & Canada</strong>. 
-              Protected by a transparent 6-point legal agreement, 30-day refund safety, and zero false promises.
+              Turn your international career ambition into reality with verified employer job placements across 
+              <strong className="text-white"> Baku, Sumqayit, and Azerbaijan</strong>. 
+              Protected by our transparent 6-point legal agreement, 65-Day refund policy, and zero false promises.
             </p>
 
             {/* Key Trust Highlights */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-sm text-slate-200">
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-brand-green flex-shrink-0" />
-                <span>Legitimate Embassy-Compliant Process</span>
+                <span>State Migration Service (SMS) Compliant</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-brand-green flex-shrink-0" />
@@ -65,7 +65,7 @@ export default function Hero({ onOpenApplication, onScrollToEligibility }) {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-brand-green flex-shrink-0" />
-                <span>Written Agreement with 30-Day Refund Clause</span>
+                <span>Written Agreement with 65-Day Refund Clause</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle2 className="w-4 h-4 text-brand-green flex-shrink-0" />
@@ -145,15 +145,17 @@ export default function Hero({ onOpenApplication, onScrollToEligibility }) {
                     <div className="text-xs text-slate-300 font-medium mt-0.5">Eligible Candidate Age</div>
                   </div>
                   <div className="bg-brand-navy/60 border border-slate-800 rounded-xl p-3.5 text-center">
-                    <div className="text-2xl font-black text-white">12+</div>
-                    <div className="text-xs text-slate-300 font-medium mt-0.5">Top Global Destinations</div>
+                    <div className="text-xl font-black text-white flex items-center justify-center gap-1">
+                      <span>🇦🇿 Baku</span>
+                    </div>
+                    <div className="text-xs text-slate-300 font-medium mt-0.5">Azerbaijan Work Permits</div>
                   </div>
                   <div className="bg-brand-navy/60 border border-slate-800 rounded-xl p-3.5 text-center">
                     <div className="text-2xl font-black text-brand-green">100%</div>
                     <div className="text-xs text-slate-300 font-medium mt-0.5">Transparent Terms</div>
                   </div>
                   <div className="bg-brand-navy/60 border border-slate-800 rounded-xl p-3.5 text-center">
-                    <div className="text-2xl font-black text-brand-gold">30 Days</div>
+                    <div className="text-2xl font-black text-brand-gold">65 Days</div>
                     <div className="text-xs text-slate-300 font-medium mt-0.5">Refund Policy Protection</div>
                   </div>
                 </div>

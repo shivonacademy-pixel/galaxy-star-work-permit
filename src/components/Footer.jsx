@@ -50,7 +50,7 @@ export default function Footer({ onOpenTermsModal, onOpenApplication }) {
             </p>
 
             <p className="text-xs text-slate-400 leading-relaxed">
-              Premier emigration consultancy & overseas job placement agency specialized in matching candidates aged <strong>18 to 51</strong> with verified international employers in Europe, Gulf, Singapore, Canada, and beyond.
+              Premier emigration consultancy & job placement agency specialized in matching candidates aged <strong>18 to 51</strong> with verified employer work permits in Baku, Sumqayit, and across Azerbaijan.
             </p>
 
             {/* Social Media Links */}
@@ -94,9 +94,10 @@ export default function Footer({ onOpenTermsModal, onOpenApplication }) {
               <li><a href="#home" className="hover:text-brand-gold transition-colors">Home</a></li>
               <li><a href="#about" className="hover:text-brand-gold transition-colors">About Us</a></li>
               <li><a href="#services" className="hover:text-brand-gold transition-colors">Services</a></li>
-              <li><a href="#jobs" className="hover:text-brand-gold transition-colors">Job Openings (18–51)</a></li>
+              <li><a href="#jobs" className="hover:text-brand-gold transition-colors">Azerbaijan Jobs (18–51)</a></li>
               <li><a href="#eligibility" className="hover:text-brand-gold transition-colors">Age Eligibility Tool</a></li>
               <li><a href="#workflow" className="hover:text-brand-gold transition-colors">5-Step Process</a></li>
+              <li><a href="#reviews" className="hover:text-brand-gold transition-colors">Candidate Reviews</a></li>
               <li><a href="#terms" className="hover:text-brand-gold transition-colors">Terms & Policy</a></li>
               <li><a href="#contact" className="hover:text-brand-gold transition-colors">Contact Us</a></li>
             </ul>
@@ -105,17 +106,17 @@ export default function Footer({ onOpenTermsModal, onOpenApplication }) {
           {/* Key Destinations */}
           <div className="lg:col-span-3 space-y-3">
             <h4 className="font-heading font-bold text-white text-sm uppercase tracking-wider">
-              Top Country Programs
+              Azerbaijan Work Programs 🇦🇿
             </h4>
             <ul className="space-y-2 text-xs text-slate-400">
-              <li>🇵🇱 Poland Voivodeship Work Permits</li>
-              <li>🇭🇷 Croatia Residence & Employment</li>
-              <li>🇲🇹 Malta Single Work Permit</li>
-              <li>🇩🇪 Germany Skilled & Opportunity Visas</li>
-              <li>🇦🇪 UAE / Dubai Employment Visas</li>
-              <li>🇸🇦 Saudi Arabia Work Passports</li>
-              <li>🇸🇬 Singapore Work Permits</li>
-              <li>🇨🇦 Canada LMIA Placements</li>
+              <li>🇦🇿 Baku Warehouse & Logistics Quotas</li>
+              <li>🇦🇿 Sumqayit Welder & Fabrication Permits</li>
+              <li>🇦🇿 Baku Luxury Hotel & Hospitality Visas</li>
+              <li>🇦🇿 Azerbaijan Heavy Driver & Transport Permits</li>
+              <li>🇦🇿 Commercial Electrical Maintenance Visas</li>
+              <li>🇦🇿 State Migration Service (SMS) Registration</li>
+              <li>🇦🇿 Temporary Residence & Work Permit (TRWP)</li>
+              <li>🇦🇿 Construction & Technical Trades Permits</li>
             </ul>
           </div>
 

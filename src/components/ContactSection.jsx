@@ -20,7 +20,7 @@ export default function ContactSection({ prefilledService = '' }) {
     age: '28',
     phone: '',
     email: '',
-    destination: 'Poland',
+    destination: 'Azerbaijan (Baku)',
     skill: '',
     message: ''
   });
@@ -302,7 +302,7 @@ export default function ContactSection({ prefilledService = '' }) {
                   {/* Target Destination */}
                   <div>
                     <label className="block text-xs font-bold text-slate-700 mb-1">
-                      Preferred Target Country
+                      Target Destination in Azerbaijan
                     </label>
                     <select
                       name="destination"
@@ -310,16 +310,10 @@ export default function ContactSection({ prefilledService = '' }) {
                       onChange={handleChange}
                       className="w-full px-3.5 py-2.5 text-xs sm:text-sm border border-slate-300 rounded-xl focus:outline-none focus:border-brand-navy bg-white"
                     >
-                      <option value="Poland">Poland (Europe)</option>
-                      <option value="Croatia">Croatia (Europe)</option>
-                      <option value="Malta">Malta (Europe)</option>
-                      <option value="Germany">Germany (Europe)</option>
-                      <option value="UAE / Dubai">UAE / Dubai (Gulf)</option>
-                      <option value="Saudi Arabia">Saudi Arabia (Gulf)</option>
-                      <option value="Singapore">Singapore (APAC)</option>
-                      <option value="Canada">Canada (LMIA / Work)</option>
-                      <option value="United Kingdom">United Kingdom</option>
-                      <option value="Australia">Australia</option>
+                      <option value="Azerbaijan (Baku)">Azerbaijan - Baku (Capital City)</option>
+                      <option value="Azerbaijan (Sumqayit)">Azerbaijan - Sumqayit (Industrial Hub)</option>
+                      <option value="Azerbaijan (Ganja)">Azerbaijan - Ganja Region</option>
+                      <option value="Azerbaijan (All Quotas)">Azerbaijan - Any Placement</option>
                     </select>
                   </div>
 
@@ -356,7 +350,7 @@ export default function ContactSection({ prefilledService = '' }) {
 
                 {/* Compliance Disclaimer Checkbox */}
                 <div className="p-3 bg-slate-50 border border-slate-200 rounded-xl text-[11px] text-slate-600 leading-relaxed">
-                  By submitting this form, you acknowledge that Galaxy Star Work Permit Services operates under official Terms and Conditions with no false visa guarantees, and disputes are subject to Pune/Mumbai court jurisdiction.
+                  By submitting this form, you acknowledge that Galaxy Star Work Permit Services operates under official Terms and Conditions with a 65-Day refund policy, and disputes are subject to Pune/Mumbai court jurisdiction.
                 </div>
 
                 {/* Submit Buttons */}

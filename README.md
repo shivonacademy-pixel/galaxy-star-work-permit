@@ -12,9 +12,10 @@ Official website for **Galaxy Star Work Permit Services**, an emigration consult
 - **Official Helpline**: `+91 8007884006` (Click-to-call enabled)
 - **WhatsApp Direct**: `+91 8007884006` ([Chat Link](https://wa.me/918007884006))
 - **Official Email**: `galaxystarworkpermitservices@gmail.com`
-- **Instagram**: [instagram.com/galaxy_star_service](https://www.instagram.com/galaxy_star_service?psln=MW9qeHpqNGE3NGtlaw==)
+- **Instagram**: [instagram.com/galaxy_star_work_permit](https://www.instagram.com/galaxy_star_work_permit?dlrf=MXNsaDdmdmJ3b2RhaQ==)
 - **Facebook**: [facebook.com/share/1QGJqqPDTr/](https://www.facebook.com/share/1QGJqqPDTr/)
 - **Legal Headquarters**: Pune / Mumbai, Maharashtra, India
+- **Core Focus Destination**: Azerbaijan (Baku, Sumqayit, Ganja)
 - **Core Eligible Demographic**: Candidates aged 18 to 51 Years
 
 ---
@@ -32,11 +33,11 @@ Official website for **Galaxy Star Work Permit Services**, an emigration consult
 
 ## ⚖️ Official 6-Point Terms & Conditions Included (Verbatim)
 
-1. **Scope of Services**: Legal advice & guidance; application preparation; ethical notice that visa issuance authority belongs solely to foreign embassies (no fraudulent 100% guarantees).
-2. **Client's Responsibilities**: True and accurate documentation mandatory; strict zero-tolerance for forged documents; timely fee/document submission.
-3. **Fees and Payment Policy**: Fixed consultation fee agreed upon; separate direct government fees.
-4. **Refund / Non-Refund Policy**: **30-Day Refund Clause** if process is canceled due to agency issues; strict 2-day payment window upon e-Visa receipt.
-5. **Termination of Agreement**: Immediate cancellation on client rule violations; non-refundable on voluntary client withdrawal.
+1. **Scope of Services**: Consultation and Guidance regarding visa process, documents, application preparation; No Guarantee of Visa Approval (embassy authority).
+2. **Client's Responsibilities**: True, accurate and complete information; strict zero-tolerance for fake/forged documents; timely compliance.
+3. **Fees and Payment Policy**: Agreed consultancy fee; government charges (visa application fees, courier, medical tests, etc.) borne separately.
+4. **Refund / Non-Refund Policy**: **65-Day Refund Policy** if canceled due to personal difficulties within terms; strictly 2-day payment window upon e-Visa issuance.
+5. **Termination of Agreement**: Immediate cancellation on client violations/incorrect info; non-refundable on voluntary discontinuance.
 6. **Jurisdiction**: Exclusive dispute resolution under the courts of Pune / Mumbai, Maharashtra.
 
 ---

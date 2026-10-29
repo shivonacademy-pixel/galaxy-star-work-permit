@@ -44,7 +44,7 @@ export default function TermsAndConditionsSection({ onOpenDocumentPreview }) {
             {COMPANY_INFO.tagline}
           </div>
           <p className="mt-3 text-slate-600 text-sm sm:text-base">
-            We operate with 100% legal integrity. Every client is protected by our transparent 6-clause agreement covering services, honest visa disclaimers, 30-day refund safety, and Pune/Mumbai jurisdiction.
+            We operate with 100% legal integrity. Every client is protected by our transparent 6-clause agreement covering services, honest visa disclaimers, 65-Day refund policy, and Pune/Mumbai jurisdiction.
           </p>
         </div>
 
@@ -135,7 +135,7 @@ export default function TermsAndConditionsSection({ onOpenDocumentPreview }) {
           <div className="space-y-1">
             <span className="font-bold text-amber-950">Ethical Emigration Statement (Section 1 & 4):</span>
             <p className="leading-relaxed">
-              Galaxy Star Work Permit Services strictly abides by destination country immigration regulations. Approval or rejection of any visa rests entirely at the discretion of the Embassy or Consulate. If any cancellation occurs due to an issue on our part, your fees are 100% refunded within 30 days.
+              Galaxy Star Work Permit Services strictly abides by destination country immigration regulations. Approval or rejection of any visa rests entirely at the discretion of the Embassy or Consulate. As per Section 4, if the client cancels the process due to personal difficulties, the amount paid will be refunded within 65 days.
             </p>
           </div>
         </div>

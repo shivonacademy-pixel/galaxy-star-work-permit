@@ -30,9 +30,10 @@ export default function Navbar({ onOpenApplication, onOpenTermsModal }) {
     { name: 'Home', href: '#home' },
     { name: 'About Us', href: '#about' },
     { name: 'Services', href: '#services' },
-    { name: 'Jobs (Age 18–51)', href: '#jobs' },
-    { name: 'Eligibility Checker', href: '#eligibility' },
+    { name: 'Azerbaijan Jobs (18–51)', href: '#jobs' },
+    { name: 'Eligibility', href: '#eligibility' },
     { name: 'Workflow', href: '#workflow' },
+    { name: 'Reviews', href: '#reviews' },
     { name: 'Terms & Policy', href: '#terms' },
     { name: 'Contact', href: '#contact' },
   ];

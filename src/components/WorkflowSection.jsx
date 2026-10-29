@@ -34,10 +34,10 @@ export default function WorkflowSection({ onOpenApplication }) {
             <span>Ethical & Transparent Process</span>
           </div>
           <h2 className="font-heading font-black text-2xl sm:text-3xl md:text-4xl text-white">
-            Our 5-Step Emigration & Placement Workflow
+            Our 5-Step Azerbaijan Placement Workflow
           </h2>
           <p className="mt-3 text-slate-300 text-sm sm:text-base">
-            No confusion, no hidden steps. Follow our structured roadmap from initial age assessment to safe departure.
+            No confusion, no hidden steps. Follow our structured roadmap from initial age assessment to safe Baku departure.
           </p>
         </div>
 

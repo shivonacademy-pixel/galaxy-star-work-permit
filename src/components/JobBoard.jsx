@@ -52,13 +52,13 @@ export default function JobBoard({ onSelectJobForApplication }) {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-navy/10 text-brand-navy font-bold text-xs uppercase tracking-wider mb-3">
             <Briefcase className="w-3.5 h-3.5 text-brand-gold-dark" />
-            <span>Verified International Openings</span>
+            <span>Verified Azerbaijan Job Openings 🇦🇿</span>
           </div>
           <h2 className="font-heading font-black text-2xl sm:text-3xl md:text-4xl text-brand-navy">
-            Current Overseas Work Permit Openings (Ages 18–51)
+            Current Azerbaijan Work Permit Openings (Ages 18–51)
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base">
-            Explore verified vacancies across Europe, Gulf, and Asia-Pacific. Every placement comes with legal employment contracts, accommodation provisions, and full emigration documentation.
+            Explore verified vacancies across Baku, Sumqayit, and Ganja in Azerbaijan. Every placement comes with legal employment contracts, free employer accommodation, and full State Migration Service documentation.
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function JobBoard({ onSelectJobForApplication }) {
           {/* Country Selection Pills */}
           <div className="pt-3 border-t border-slate-200/80">
             <div className="text-xs font-bold text-slate-500 mb-2 flex items-center gap-1">
-              <MapPin className="w-3.5 h-3.5 text-brand-gold-dark" /> Select Country:
+              <MapPin className="w-3.5 h-3.5 text-brand-gold-dark" /> Select Azerbaijan Location:
             </div>
             <div className="flex flex-wrap gap-2">
               {COUNTRIES.map((c) => (
@@ -250,7 +250,7 @@ export default function JobBoard({ onSelectJobForApplication }) {
           <div className="flex items-center gap-2">
             <ShieldCheck className="w-5 h-5 text-brand-gold-dark flex-shrink-0" />
             <span>
-              All job placements adhere strictly to Section 1 of our official Terms & Conditions. Visa granting authority belongs solely to the respective country's embassy.
+              All Azerbaijan job placements adhere strictly to Section 1 of our official Terms & Conditions. Visa granting authority belongs solely to the Embassy and State Migration Service of Azerbaijan.
             </span>
           </div>
           <a

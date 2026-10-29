@@ -56,7 +56,7 @@ export default function FaqSection({ onOpenTermsModal }) {
         {/* Extra question helper */}
         <div className="mt-10 p-6 bg-brand-navy/5 border border-brand-navy/15 rounded-2xl text-center space-y-3">
           <p className="text-xs sm:text-sm font-semibold text-brand-navy">
-            Have a question regarding your specific country or age requirements?
+            Have a question regarding Azerbaijan work permits or age requirements?
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <a

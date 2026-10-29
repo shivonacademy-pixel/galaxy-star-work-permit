@@ -29,13 +29,13 @@ export default function ServicesSection({ onOpenApplication }) {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-navy/10 text-brand-navy font-bold text-xs uppercase tracking-wider mb-3">
             <Globe className="w-3.5 h-3.5 text-brand-gold-dark" />
-            <span>Comprehensive Emigration Solutions</span>
+            <span>Azerbaijan Emigration Solutions 🇦🇿</span>
           </div>
           <h2 className="font-heading font-black text-2xl sm:text-3xl md:text-4xl text-brand-navy">
-            Our Professional Emigration & Visa Services
+            Our Professional Azerbaijan Work Permit Services
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base">
-            From initial document verification to embassy filing and employer contracts, we handle every stage of your global mobility journey with utmost transparency.
+            From initial document verification to State Migration Service filing and Baku employer contracts, we handle every stage of your Azerbaijan work journey with utmost transparency.
           </p>
         </div>
 

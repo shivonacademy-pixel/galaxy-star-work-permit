@@ -8,7 +8,7 @@ export default function ApplicationModal({ isOpen, onClose, selectedJob = null }
     age: '28',
     phone: '',
     email: '',
-    country: 'Europe (Poland / Croatia)',
+    country: 'Azerbaijan (Baku)',
     jobRole: '',
     passportStatus: 'Valid Passport Available',
     message: ''
@@ -50,7 +50,7 @@ export default function ApplicationModal({ isOpen, onClose, selectedJob = null }
       `🎂 Age: ${formData.age} Years (Age Group 18-51)\n` +
       `📞 Contact: ${formData.phone}\n` +
       `💼 Position: ${formData.jobRole || (selectedJob ? selectedJob.title : 'General Inquiry')}\n` +
-      `🌍 Target Country: ${formData.country || (selectedJob ? selectedJob.country : 'Any European / Gulf')}\n` +
+      `🌍 Target Country: ${formData.country || (selectedJob ? selectedJob.country : 'Azerbaijan (Baku)')}\n` +
       `🛂 Passport Status: ${formData.passportStatus}\n` +
       `💬 Remarks: ${formData.message || 'Please guide me with next documentation steps.'}`
     );
@@ -72,7 +72,7 @@ export default function ApplicationModal({ isOpen, onClose, selectedJob = null }
             </div>
             <div>
               <h3 className="font-heading font-extrabold text-base sm:text-lg text-white">
-                {selectedJob ? `Apply: ${selectedJob.title}` : 'Overseas Profile Assessment (Age 18–51)'}
+                {selectedJob ? `Apply: ${selectedJob.title}` : 'Azerbaijan Profile Assessment (Age 18–51)'}
               </h3>
               <p className="text-xs text-brand-gold font-medium">
                 Galaxy Star Work Permit Services

@@ -15,27 +15,27 @@ import {
 } from 'lucide-react';
 
 const TRADES = [
-  { id: 'warehouse', name: 'Warehouse & Logistics / Packer', minAge: 18, maxAge: 51, avgSalary: '₹1,10,000 – ₹1,55,000/mo', idealCountries: ['Poland', 'Croatia', 'UAE'] },
-  { id: 'welder', name: 'Welder / Fabricator / Fitter', minAge: 20, maxAge: 51, avgSalary: '₹1,35,000 – ₹1,90,000/mo', idealCountries: ['Croatia', 'Poland', 'Germany'] },
-  { id: 'hospitality', name: 'Chef / Kitchen Staff / Hospitality', minAge: 18, maxAge: 48, avgSalary: '₹1,25,000 – ₹1,85,000/mo', idealCountries: ['Malta', 'Poland', 'Singapore'] },
-  { id: 'driver', name: 'Heavy Driver / Forklift Operator', minAge: 22, maxAge: 51, avgSalary: '₹1,40,000 – ₹2,40,000/mo', idealCountries: ['Germany', 'Poland', 'Canada', 'UAE'] },
-  { id: 'electrician', name: 'Electrician / Maintenance Tech', minAge: 21, maxAge: 51, avgSalary: '₹1,10,000 – ₹1,75,000/mo', idealCountries: ['UAE', 'Poland', 'Croatia'] },
-  { id: 'healthcare', name: 'Healthcare Assistant / Nurse', minAge: 21, maxAge: 50, avgSalary: '₹1,80,000 – ₹2,75,000/mo', idealCountries: ['United Kingdom', 'Germany', 'Malta'] },
-  { id: 'agriculture', name: 'Agriculture & Farm Worker', minAge: 18, maxAge: 51, avgSalary: '₹1,00,000 – ₹1,40,000/mo', idealCountries: ['Poland', 'Croatia'] },
-  { id: 'general', name: 'General Helper / Factory Worker', minAge: 18, maxAge: 51, avgSalary: '₹95,000 – ₹1,30,000/mo', idealCountries: ['Poland', 'UAE', 'Croatia'] }
+  { id: 'warehouse', name: 'Warehouse & Logistics / Packer', minAge: 18, maxAge: 51, avgSalary: '₹75,000 – ₹95,000/mo (1,500 – 1,900 AZN)', idealCountries: ['Baku, Azerbaijan'] },
+  { id: 'welder', name: 'Welder / Fabricator / Fitter', minAge: 20, maxAge: 51, avgSalary: '₹90,000 – ₹1,25,000/mo (1,800 – 2,500 AZN)', idealCountries: ['Sumqayit / Baku, Azerbaijan'] },
+  { id: 'hospitality', name: 'Chef / Kitchen Staff / Hospitality', minAge: 18, maxAge: 48, avgSalary: '₹80,000 – ₹1,15,000/mo (1,600 – 2,300 AZN)', idealCountries: ['Baku Luxury Hotels, Azerbaijan'] },
+  { id: 'driver', name: 'Heavy Driver / Forklift Operator', minAge: 22, maxAge: 51, avgSalary: '₹95,000 – ₹1,35,000/mo (1,900 – 2,700 AZN)', idealCountries: ['Baku Logistics & Port, Azerbaijan'] },
+  { id: 'electrician', name: 'Electrician / Maintenance Tech', minAge: 21, maxAge: 51, avgSalary: '₹85,000 – ₹1,20,000/mo (1,700 – 2,400 AZN)', idealCountries: ['Baku Commercial Hub, Azerbaijan'] },
+  { id: 'construction', name: 'Construction Mason / Carpenter', minAge: 19, maxAge: 51, avgSalary: '₹75,000 – ₹1,00,000/mo (1,500 – 2,000 AZN)', idealCountries: ['Baku Infrastructure, Azerbaijan'] },
+  { id: 'agriculture', name: 'Agriculture & Farm Specialist', minAge: 18, maxAge: 51, avgSalary: '₹70,000 – ₹90,000/mo (1,400 – 1,800 AZN)', idealCountries: ['Ganja / Absheron, Azerbaijan'] },
+  { id: 'general', name: 'General Helper / Factory Assistant', minAge: 18, maxAge: 51, avgSalary: '₹70,000 – ₹90,000/mo (1,400 – 1,800 AZN)', idealCountries: ['Baku & Sumqayit, Azerbaijan'] }
 ];
 
 const DESTINATIONS = [
-  { id: 'europe', name: 'Europe (Poland, Croatia, Malta, Germany)', flag: '🇪🇺' },
-  { id: 'gulf', name: 'Gulf Countries (UAE, Saudi Arabia)', flag: '🇦🇪' },
-  { id: 'singapore', name: 'Singapore / APAC', flag: '🇸🇬' },
-  { id: 'western', name: 'Canada / UK / Australia', flag: '🌐' }
+  { id: 'baku', name: 'Baku (Capital City Hub)', flag: '🇦🇿' },
+  { id: 'sumqayit', name: 'Sumqayit (Industrial Hub)', flag: '🇦🇿' },
+  { id: 'ganja', name: 'Ganja (Commercial Region)', flag: '🇦🇿' },
+  { id: 'all-az', name: 'All Azerbaijan Work Quotas', flag: '🇦🇿' }
 ];
 
 export const AgeEligibilityChecker = () => {
   const [age, setAge] = useState(28);
   const [selectedTrade, setSelectedTrade] = useState('warehouse');
-  const [selectedDest, setSelectedDest] = useState('europe');
+  const [selectedDest, setSelectedDest] = useState('Baku (Capital City Hub)');
   const [candidateName, setCandidateName] = useState('');
   const [candidatePhone, setCandidatePhone] = useState('');
 
@@ -45,22 +45,22 @@ export const AgeEligibilityChecker = () => {
   // Custom feedback text based on age bracket
   let ageInsight = '';
   if (age >= 18 && age <= 25) {
-    ageInsight = 'Prime entry age: Excellent for fast-track warehouse, hospitality, agricultural, and apprenticeships with rapid visa approvals.';
+    ageInsight = 'Prime entry age: Excellent for fast-track Baku hotel hospitality, warehouse logistics, and store assistants with rapid State Migration Service approvals.';
   } else if (age >= 26 && age <= 40) {
-    ageInsight = 'Core peak career age: Highest demand across all technical trades, skilled welding, heavy driving, and supervisor positions in Europe and Gulf.';
+    ageInsight = 'Core peak career age: Highest demand across Azerbaijan for technical trades, skilled welders, commercial electricians, and heavy vehicle operators.';
   } else {
-    ageInsight = 'Master experience bracket: Highly valued for heavy machinery, master craftsmen, certified welders, and maintenance leads where practical experience outweighs theoretical degrees.';
+    ageInsight = 'Master experience bracket: Highly valued in Azerbaijan for heavy machinery, master fabricators, and site foremen where practical skills outweigh formal degrees.';
   }
 
   const handleWhatsAppShare = () => {
     const text = encodeURIComponent(
-      `Hello Galaxy Star Work Permit Services,\n\nI used your 18-51 Age Eligibility Checker:\n` +
+      `Hello Galaxy Star Work Permit Services,\n\nI used your 18-51 Azerbaijan Age Eligibility Checker:\n` +
       `👤 Name: ${candidateName || 'Candidate'}\n` +
       `📞 Phone: ${candidatePhone || 'Not provided'}\n` +
-      `🎂 Age: ${age} years\n` +
+      `🎂 Age: ${age} years (Bracket 18-51)\n` +
       `🛠️ Trade/Skill: ${currentTrade.name}\n` +
-      `🌍 Preferred Destination: ${selectedDest}\n\n` +
-      `Please review my profile and guide me on the work permit process.`
+      `🇦🇿 Target: Azerbaijan (${selectedDest})\n\n` +
+      `Please review my profile and guide me on the Azerbaijan work permit process.`
     );
     window.open(`https://wa.me/${COMPANY_INFO.whatsappNumber}?text=${text}`, '_blank');
   };
@@ -73,14 +73,13 @@ export const AgeEligibilityChecker = () => {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-navy/10 text-brand-navy font-bold text-xs uppercase tracking-wider mb-3">
             <Sliders className="w-3.5 h-3.5 text-brand-gold-dark" />
-            <span>Interactive Overseas Assessment</span>
+            <span>Azerbaijan Work Permit Assessment 🇦🇿</span>
           </div>
           <h2 className="font-heading font-black text-2xl sm:text-3xl md:text-4xl text-brand-navy">
-            Age 18 to 51 Eligibility & Country Matcher
+            Age 18 to 51 Eligibility & Azerbaijan Matcher
           </h2>
           <p className="mt-3 text-slate-600 text-sm sm:text-base">
-            Galaxy Star exclusively places job candidates aged between <strong>18 and 51 years</strong>. 
-            Adjust your age and trade below to evaluate your international work permit opportunities.
+            Galaxy Star exclusively places job candidates aged between <strong>18 and 51 years</strong> for official Azerbaijan work permits and residence. Adjust your age and trade below to evaluate your placement in Baku.
           </p>
         </div>
 
@@ -121,7 +120,7 @@ export const AgeEligibilityChecker = () => {
               <div className="mt-3 p-3 bg-brand-navy/5 border border-brand-navy/15 rounded-xl text-xs text-brand-navy flex items-start gap-2.5">
                 <Clock className="w-4 h-4 text-brand-gold-dark flex-shrink-0 mt-0.5" />
                 <div>
-                  <span className="font-bold">Age {age} Guidance: </span>
+                  <span className="font-bold">Age {age} Azerbaijan Guidance: </span>
                   <span>{ageInsight}</span>
                 </div>
               </div>
@@ -155,7 +154,7 @@ export const AgeEligibilityChecker = () => {
             {/* Destination Selector */}
             <div>
               <label className="font-heading font-bold text-slate-800 text-base block mb-2">
-                3. Preferred Destination Market:
+                3. Preferred Location in Azerbaijan:
               </label>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                 {DESTINATIONS.map((dest) => (
@@ -178,7 +177,7 @@ export const AgeEligibilityChecker = () => {
             {/* Quick Contact inputs for instant WhatsApp forwarding */}
             <div className="pt-2 border-t border-slate-100">
               <div className="text-xs font-semibold text-slate-500 mb-2">
-                Optional: Enter your details to generate your personalized report:
+                Optional: Enter your details to generate your Azerbaijan assessment:
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <input
@@ -209,7 +208,7 @@ export const AgeEligibilityChecker = () => {
                   Assessment Outcome
                 </span>
                 <h3 className="font-heading font-extrabold text-xl text-white mt-0.5">
-                  Eligibility Evaluation
+                  Azerbaijan Qualification
                 </h3>
               </div>
               <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-brand-green/20 border border-brand-green/40 text-brand-green text-xs font-bold">
@@ -223,9 +222,9 @@ export const AgeEligibilityChecker = () => {
               <div className="flex items-start gap-3 bg-white/5 p-3.5 rounded-xl border border-white/10">
                 <Award className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
                 <div className="text-xs">
-                  <div className="font-bold text-white text-sm">Matched Category: {currentTrade.name}</div>
+                  <div className="font-bold text-white text-sm">Matched Sector: {currentTrade.name}</div>
                   <div className="text-slate-300 mt-0.5">
-                    Age suitability window: <strong className="text-brand-gold">{currentTrade.minAge} to {currentTrade.maxAge} Years</strong>. Your age ({age}) is fully qualified.
+                    Age suitability window: <strong className="text-brand-gold">{currentTrade.minAge} to {currentTrade.maxAge} Years</strong>. Your age ({age}) is fully qualified for Azerbaijan.
                   </div>
                 </div>
               </div>
@@ -233,20 +232,21 @@ export const AgeEligibilityChecker = () => {
               <div className="flex items-start gap-3 bg-white/5 p-3.5 rounded-xl border border-white/10">
                 <IndianRupee className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
                 <div className="text-xs">
-                  <div className="font-bold text-white text-sm">Estimated Monthly Earning:</div>
+                  <div className="font-bold text-white text-sm">Estimated Monthly Package:</div>
                   <div className="text-brand-gold font-extrabold text-base mt-0.5">{currentTrade.avgSalary}</div>
-                  <div className="text-slate-400 text-[11px]">Varies with overtime, employer accommodation & country tax laws.</div>
+                  <div className="text-slate-400 text-[11px]">Free accommodation, health insurance & overtime included.</div>
                 </div>
               </div>
 
               <div className="flex items-start gap-3 bg-white/5 p-3.5 rounded-xl border border-white/10">
                 <Globe className="w-5 h-5 text-sky-400 flex-shrink-0 mt-0.5" />
                 <div className="text-xs">
-                  <div className="font-bold text-white text-sm">Top Destination Recommendations:</div>
+                  <div className="font-bold text-white text-sm">Work Hub Placement:</div>
                   <div className="text-slate-200 mt-1 flex flex-wrap gap-1.5">
                     {currentTrade.idealCountries.map((c) => (
-                      <span key={c} className="px-2 py-0.5 bg-brand-navy-dark border border-slate-700 rounded text-[11px] font-medium text-slate-200">
-                        {c}
+                      <span key={c} className="px-2 py-0.5 bg-brand-navy-dark border border-slate-700 rounded text-[11px] font-medium text-slate-200 flex items-center gap-1">
+                        <span>🇦🇿</span>
+                        <span>{c}</span>
                       </span>
                     ))}
                   </div>
@@ -258,7 +258,7 @@ export const AgeEligibilityChecker = () => {
             <div className="p-4 bg-slate-900/80 rounded-xl border border-slate-800 space-y-2">
               <div className="text-xs font-bold text-brand-gold uppercase tracking-wider flex items-center gap-1.5">
                 <FileCheck2 className="w-4 h-4" />
-                <span>Documents Needed to Apply:</span>
+                <span>Documents Needed for Azerbaijan:</span>
               </div>
               <ul className="text-xs text-slate-300 space-y-1.5 pl-1">
                 <li className="flex items-center gap-2">
@@ -275,7 +275,7 @@ export const AgeEligibilityChecker = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 rounded-full bg-brand-gold" />
-                  <span>Trade Proof / Experience Certificate (if available)</span>
+                  <span>Medical Fitness Certificate for Azerbaijan</span>
                 </li>
               </ul>
             </div>
@@ -286,11 +286,11 @@ export const AgeEligibilityChecker = () => {
               className="w-full py-3.5 bg-brand-green hover:bg-brand-green-dark text-white font-bold rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 text-sm"
             >
               <Send className="w-4 h-4" />
-              <span>Send My Profile to WhatsApp (+91 8007884006)</span>
+              <span>Send Profile to WhatsApp (+91 8007884006)</span>
             </button>
 
             <div className="text-center text-[11px] text-slate-400">
-              Honest assessment with zero obligation. Governed under Pune/Mumbai legal terms.
+              65-Day refund policy protection • Governed under Pune/Mumbai legal terms.
             </div>
 
           </div>
